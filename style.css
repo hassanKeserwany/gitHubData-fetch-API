@@ -1,0 +1,57 @@
+.container {
+  background-color: rgb(231, 224, 224);
+  margin: 20px auto;
+  width: 80%;
+  padding: 10px;
+}
+.info {
+  display: flex;
+  padding: 10px;
+
+  justify-content: space-between;
+}
+.info input {
+  width: 100%;
+  border: none;
+  outline-color: red;
+  font-size: 18px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.info button {
+  background-color: black;
+  border-color: white;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.data {
+  background-color: rgb(241, 248, 255);
+  margin-top: 50px;
+}
+
+.styleSpan {
+  color: rgb(97, 100, 102);
+  padding: 10px;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 5px solid rgb(231, 225, 225);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.styleSpan a {
+  background-color: red;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
